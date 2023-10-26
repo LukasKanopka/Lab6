@@ -10,16 +10,6 @@ def encode(input_str):
         new.append(new_char)
     return "".join(new)
 
-def decode(encoded_str):
-    original = []
-    for char in encoded_str:
-        char_value = int(char)
-        if char_value < 3:
-            original_char = str(char_value + 7)
-        else:
-            original_char = str(char_value - 3)
-        original.append(original_char)
-    return "".join(original)
 
 def print_menu():
     print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
