@@ -1,4 +1,4 @@
-
+#Laurynas Kanopka
 def encode(input_str):
     new = []
     for char in input_str:
